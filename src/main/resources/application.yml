@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://47.101.195.186:9221/test4fx?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&serverTimezone=UTC
+    username: txzl
+    password: 46tdkQcYF5klMQAKKWyqExqPg5hxalDr
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+mybatis-plus:
+  mapper-locations: classpath:com/gauss/fxboot/demo/dao/mapping/*Mapper.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  type-aliases-package: com.gauss.fxboot.demo.entity

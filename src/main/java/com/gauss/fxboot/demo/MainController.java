@@ -1,18 +1,14 @@
-package com.spartajet.fxboot.demo;
+package com.gauss.fxboot.demo;
 
-import com.spartajet.fxboot.demo.view.MainStageView;
+import com.gauss.fxboot.demo.view.LoginStageView;
 import de.felixroske.jfxsupport.AbstractJavaFxApplicationSupport;
 import javafx.stage.Stage;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * The type Main controller.
- *
- * @description
- * @create 2017 -05-20 下午1:45
- * @email spartajet.guo @gmail.com
- */
+
 @SpringBootApplication
+@MapperScan("com.gauss.fxboot.demo.dao")
 public class MainController extends AbstractJavaFxApplicationSupport {
 
     /**
@@ -21,7 +17,7 @@ public class MainController extends AbstractJavaFxApplicationSupport {
      * @param args the input arguments
      */
     public static void main(String[] args) {
-        launchApp(MainController.class, MainStageView.class, args);
+        launchApp(MainController.class, LoginStageView.class, args);
     }
 
     /**

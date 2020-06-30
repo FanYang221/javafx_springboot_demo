@@ -1,4 +1,4 @@
-package com.spartajet.fxboot.demo.controller;
+package com.gauss.fxboot.demo.controller;
 
 import de.felixroske.jfxsupport.FXMLController;
 import javafx.fxml.Initializable;
@@ -6,11 +6,7 @@ import javafx.fxml.Initializable;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-/**
- * @description
- * @create 2017-05-20 下午1:55
- * @email spartajet.guo@gmail.com
- */
+
 @FXMLController
 public class MainStageController implements Initializable {
 

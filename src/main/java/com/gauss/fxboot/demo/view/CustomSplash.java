@@ -1,12 +1,8 @@
-package com.spartajet.fxboot.demo.view;
+package com.gauss.fxboot.demo.view;
 
 import de.felixroske.jfxsupport.SplashScreen;
 
-/**
- * @description
- * @create 2017-05-20 下午2:54
- * @email spartajet.guo@gmail.com
- */
+
 public class CustomSplash extends SplashScreen {
     /**
      * Use your own splash image instead of the default one
